@@ -7,7 +7,7 @@ Estudo de caso do Tech Challenge (Fase 1) da pós-graduação em Data Analytics.
 | Entregável | Arquivo |
 | --- | --- |
 | Relatório executivo (PDF) | [reports/Relatorio_Executivo_Olist.pdf](reports/Relatorio_Executivo_Olist.pdf) |
-| Apresentação executiva (PPTX) | [reports/Apresentacao_Executiva_Olist.pptx](reports/Apresentacao_Executiva_Olist.pdf) |
+| Apresentação executiva (PPTX) | [reports/Apresentacao_Executiva_Olist.pdf](reports/Apresentacao_Executiva_Olist.pdf) |
 | Painel no Power BI (PBIX) | [powerbi/Challenge_Ecommerce.pbix](powerbi/Challenge_Ecommerce.pbix) |
 | Vídeo executivo (até 5 min) | https://drive.google.com/file/d/1lNQ2NJEfjGYURY-8kOJm2TxWy9gfSgFd/view?usp=sharing |
 | Prints do painel | [docs/img](docs/img) |
@@ -48,7 +48,7 @@ P3. Os clientes voltam a comprar, e a primeira experiência influencia essa volt
 
 | Fase | O que foi feito | Onde está |
 | --- | --- | --- |
-| 1. Entendimento do negócio | Público, pergunta do estudo, perguntas norteadoras e hipóteses | [docs/01_entendimento_negocio.md](docs/01_entendimento_negocio.md) |
+| 1. Entendimento do negócio | Público, pergunta do estudo, perguntas norteadoras e hipóteses | [docs/entendimento_negocio.md](docs/entendimento_negocio.md) |
 | 2. Entendimento dos dados | Exploração das tabelas: volumes, chaves, nulos, repetições e período | [notebooks/exploracao.ipynb](notebooks/exploracao.ipynb) |
 | 3. Preparação dos dados | Regras de tratamento, modelo estrela e validações automáticas | [src/transformacoes.py](src/transformacoes.py) |
 | 4. Modelagem | Medidas, grupos de clientes e retenção por mês da 1ª compra | Painel no Power BI |
@@ -62,6 +62,12 @@ P3. Os clientes voltam a comprar, e a primeira experiência influencia essa volt
 Quatro páginas, com filtros de período e região: **Visão geral**, **Vendas**, **Entrega e satisfação** e **Clientes**.
 
 ![Página Visão geral do painel](docs/img/visao_geral.png)
+
+![Página Vendas do painel](docs/img/vendas.png)
+
+![Página Entrega e Satisfação do painel](docs/img/entrega_satisfacao.png)
+
+![Página Clientes do painel](docs/img/clientes.png)
 
 ## Estrutura do repositório
 
