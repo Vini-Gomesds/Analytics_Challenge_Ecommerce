@@ -1,0 +1,38 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache do Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Pastas de dados
+data/raw/
+
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+secrets*
+kaggle.json
+
+# Power BI: o .pbix é distribuído pela Release
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Arquivos grandes ou gerados
+*.parquet
+*.zip
+
+# Temporários do Office (Excel, Word, PowerPoint abertos)
+~$*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
