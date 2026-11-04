@@ -99,7 +99,7 @@ Quatro páginas, com filtros de período e região: **Visão geral**, **Vendas**
 
 ## Governança
 
-- [Entendimento do negócio](docs/01_entendimento_negocio.md): pergunta, hipóteses e resultados, escopo e limitações.
+- [Entendimento do negócio](docs/entendimento_negocio.md): pergunta, hipóteses e resultados, escopo e limitações.
 - [Definições de métricas](docs/definicoes_metricas.md): a regra de cada indicador do painel.
 - [Dicionário de dados](docs/dicionario_dados.md): tabelas de origem e do modelo, com suas colunas.
 - [Qualidade dos dados e decisões](docs/qualidade_dados.md): problemas encontrados, tratamentos, validações e decisões de escopo.
